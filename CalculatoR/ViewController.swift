@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         answerLabel.text = "0"
+        print("Github")
     }
 
     @IBOutlet var answerLabel: UILabel!
